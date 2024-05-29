@@ -45,7 +45,6 @@ export default function RootLayout({
         </header>
         <main
           style={{
-            height: "100%",
             minHeight: "100dvh",
           }}
         >

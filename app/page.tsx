@@ -43,8 +43,12 @@ const RootPage: NextPage = () => {
             borderRadius: ".25rem",
             boxShadow: "0 0 1rem #555",
             fontSize: ".8rem",
+            left: "5vw",
             maxWidth: "48rem",
             padding: "1rem 1.5rem",
+            position: "absolute",
+            top: "80vh",
+            width: "90vw",
           }}
         >
           <h2>プロフィール</h2>
@@ -58,6 +62,7 @@ const RootPage: NextPage = () => {
           第二種電気工事士試験を独学で合格。現在電験三種の一発合格に向けて勉強中。
         </section>
       </section>
+      <section style={{ height: "10rem" }}></section>
     </>
   )
 }
