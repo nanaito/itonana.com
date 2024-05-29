@@ -63,6 +63,56 @@ const RootPage: NextPage = () => {
         </section>
       </section>
       <section style={{ height: "10rem" }}></section>
+      <section
+        style={{
+          padding: "1rem",
+        }}
+      >
+        <h2>Youtubeチャンネル</h2>
+        <p>電気予報士 なな子のおでんき予報</p>
+        <br />
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "1rem",
+          }}
+        >
+          {[
+            "https://www.youtube.com/embed/jT04ZtKJJ9w",
+            "https://www.youtube.com/embed/FVaQ2CFNrWU",
+            "https://www.youtube.com/embed/tlST_Y7dj-o",
+          ].map((url) => (
+            <iframe
+              style={{
+                border: "none",
+                height: "16rem",
+                maxWidth: "28rem",
+                width: "100%",
+              }}
+              src={url}
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          ))}
+        </div>
+      </section>
+      <section
+        style={{
+          padding: "1rem",
+        }}
+      >
+        <h2>執筆・寄稿実績</h2>
+      </section>
+      <section
+        style={{
+          padding: "1rem",
+        }}
+      >
+        <h2>登壇実績</h2>
+      </section>
     </>
   )
 }
