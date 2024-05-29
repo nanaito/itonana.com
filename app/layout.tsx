@@ -3,6 +3,7 @@ import "./global.css"
 import Link from "next/link"
 import React from "react"
 import type { Metadata } from "next"
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 const font = M_PLUS_2({ subsets: ["latin"] })
 
@@ -51,6 +52,7 @@ export default function RootLayout({
         <footer style={{ padding: "2rem" }}>
           <p>&copy;2024 ito nana All Rights Reserved.</p>
         </footer>
+        <GoogleAnalytics gaId="G-19Z0CQ1V84" />
       </body>
     </html>
   )
