@@ -4,12 +4,13 @@ import Link from "next/link"
 import React from "react"
 import type { Metadata } from "next"
 import { GoogleAnalytics } from "@next/third-parties/google"
+import { FaLine, FaYoutube } from "react-icons/fa"
 
 const font = M_PLUS_2({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "いとうなな公式サイト",
-  description: "いとうなな 公式サイト 「電力の安定供給を私が守る」",
+  title: "伊藤なな公式サイト",
+  description: "伊藤なな 公式サイト 「電力の安定供給を私が守る」",
 }
 
 export default function RootLayout({
@@ -38,7 +39,7 @@ export default function RootLayout({
               fontWeight: "bold",
             }}
           >
-            いとうなな 公式サイト
+            伊藤なな 公式サイト
           </Link>
         </header>
         <main
@@ -50,6 +51,20 @@ export default function RootLayout({
           <>{children}</>
         </main>
         <footer style={{ padding: "2rem" }}>
+          <div
+            style={{
+              display: "flex",
+              gap: "1rem",
+              padding: "1rem",
+            }}
+          >
+            <a href="">
+              <FaLine size={60} color="#5AC463" />
+            </a>
+            <a href="">
+              <FaYoutube size={60} color="#EA3323" />
+            </a>
+          </div>
           <p>&copy;2024 ito nana All Rights Reserved.</p>
         </footer>
         <GoogleAnalytics gaId="G-19Z0CQ1V84" />
