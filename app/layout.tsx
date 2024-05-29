@@ -5,6 +5,7 @@ import React from "react"
 import type { Metadata } from "next"
 import { GoogleAnalytics } from "@next/third-parties/google"
 import { FaLine, FaYoutube } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6"
 
 const font = M_PLUS_2({ subsets: ["latin"] })
 
@@ -53,16 +54,20 @@ export default function RootLayout({
         <footer style={{ padding: "2rem" }}>
           <div
             style={{
+              alignItems: "center",
               display: "flex",
-              gap: "1rem",
-              padding: "1rem",
+              gap: "2rem",
+              padding: "1rem 0",
             }}
           >
-            <a href="">
+            <a href="//lin.ee/xSm1bWw">
               <FaLine size={60} color="#5AC463" />
             </a>
-            <a href="">
+            <a href="//www.youtube.com/channel/UCUvo2HPKy9vzABXfCHMd-JA">
               <FaYoutube size={60} color="#EA3323" />
+            </a>
+            <a href="//x.com/Denkiyohoushi">
+              <FaXTwitter size={50} />
             </a>
           </div>
           <p>&copy;2024 ito nana All Rights Reserved.</p>
