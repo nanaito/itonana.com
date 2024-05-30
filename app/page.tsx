@@ -21,10 +21,10 @@ const RootPage: NextPage = () => {
       >
         <section
           style={{
+            bottom: "1rem",
             padding: "1rem",
             position: "absolute",
             right: 0,
-            top: "4rem",
           }}
         >
           <h1
