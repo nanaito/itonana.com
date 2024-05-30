@@ -17,22 +17,39 @@ const RootPage: NextPage = () => {
           minHeight: "100dvh",
           padding: "2rem",
           position: "relative",
+          zIndex: 101,
         }}
       >
+        <div
+          style={{
+            borderBottom: "solid .25rem rgb(250, 189, 0)",
+            fontSize: "2.5rem",
+            fontWeight: "bold",
+            left: 0,
+            padding: ".5rem 1rem",
+            position: "absolute",
+            top: 0,
+          }}
+        >
+          伊藤なな
+        </div>
         <section
           style={{
+            background: "rgba(42, 98, 154, 0.95)",
+            borderTop: "solid .25rem rgb(250, 189, 0)",
             bottom: "1rem",
-            padding: "1rem",
+            padding: "1rem 2rem",
             position: "absolute",
             right: 0,
           }}
         >
           <h1
             style={{
-              color: "#2A629A",
-              fontSize: "3rem",
+              background: "transparent",
+              color: "#f0f0f0",
+              fontSize: "min(12dvw, 6rem)",
+              fontWeight: "bold",
               textAlign: "right",
-              textShadow: "#ccc .1rem .1rem .15rem",
             }}
           >
             電力の安定供給を私が守る
@@ -51,13 +68,21 @@ const RootPage: NextPage = () => {
             padding: "1rem 1.5rem",
           }}
         >
-          <h2>プロフィール</h2>
+          <h2
+            style={{
+              borderBottom: "solid .1rem rgb(250, 189, 0)",
+            }}
+          >
+            プロフィール
+          </h2>
           <div
             style={{
               padding: ".5rem 0",
             }}
           >
-            伊藤なな
+            <br />
+            <b>伊藤なな</b>
+            <br />
             <br />
             1989年埼玉県生まれ。 上智大学経済学部経営学科卒業。
             <br />
@@ -112,8 +137,19 @@ const RootPage: NextPage = () => {
             padding: "1rem",
           }}
         >
-          <h2>Youtubeチャンネル</h2>
-          <p>電気予報士 なな子のおでんき予報</p>
+          <h2
+            style={{
+              borderBottom: "solid .1rem rgb(250, 189, 0)",
+            }}
+          >
+            Youtubeチャンネル
+          </h2>
+          <br />
+          <p>
+            <a href="//www.youtube.com/@denkiyohoshi" target="_blank">
+              電気予報士 なな子のおでんき予報
+            </a>
+          </p>
           <br />
           <div
             style={{
@@ -148,7 +184,13 @@ const RootPage: NextPage = () => {
             padding: "1rem",
           }}
         >
-          <h2>執筆・寄稿実績</h2>
+          <h2
+            style={{
+              borderBottom: "solid .1rem rgb(250, 189, 0)",
+            }}
+          >
+            執筆・寄稿実績
+          </h2>
           <ul
             style={{
               padding: "2rem",
@@ -177,7 +219,13 @@ const RootPage: NextPage = () => {
             padding: "1rem",
           }}
         >
-          <h2>登壇実績</h2>
+          <h2
+            style={{
+              borderBottom: "solid .1rem rgb(250, 189, 0)",
+            }}
+          >
+            登壇実績
+          </h2>
           <ul
             style={{
               padding: "2rem",

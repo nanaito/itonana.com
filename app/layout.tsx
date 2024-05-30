@@ -24,8 +24,7 @@ export default function RootLayout({
       <body style={{ ...font.style }}>
         <header
           style={{
-            background: "transparent",
-            color: "#FFFDB5",
+            background: "#f7f7f7",
             padding: ".5rem 1rem",
             position: "fixed",
             width: "100%",
@@ -35,17 +34,16 @@ export default function RootLayout({
           <Link
             href={"/"}
             style={{
-              color: "#FFDA78",
               fontSize: "1.5rem",
               fontWeight: "bold",
             }}
           >
-            伊藤なな 公式サイト
+            伊藤なな&nbsp;<small>公式サイト</small>
           </Link>
         </header>
         <main
           style={{
-            minHeight: "100dvh",
+            minHeight: "calc(100dvh - 3rem)",
           }}
         >
           <>{children}</>
