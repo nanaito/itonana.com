@@ -241,6 +241,49 @@ const RootPage: NextPage = () => {
             <li>広島大学にて脱炭素に関するセミナー</li>
           </ul>
         </section>
+        <section
+          style={{
+            padding: "1rem",
+          }}
+        >
+          <a
+            href="//forms.gle/SwTXh3Zzv259pCfN9"
+            target="_blank"
+            style={{
+              background: "rgb(250, 189, 0)",
+              borderRadius: ".25rem",
+              boxShadow: ".0rem .0rem .1rem rgba(0, 0, 0, 0.3)",
+              display: "block",
+              margin: ".5rem auto",
+              padding: ".75rem 2rem",
+              textAlign: "center",
+            }}
+          >
+            党員サポーター募集
+          </a>
+          <p>
+            伊藤ななの活動を応援していただく党員の募集を行っております。伊藤ななの理念と政策に賛同する方の支援をお待ちしています。あなたのお力をぜひ、お貸しください。
+          </p>
+          <br />
+          <a
+            href="//lin.ee/xSm1bWw"
+            target="_blank"
+            style={{
+              background: "rgb(250, 189, 0)",
+              borderRadius: ".25rem",
+              boxShadow: ".0rem .0rem .1rem rgba(0, 0, 0, 0.3)",
+              display: "block",
+              margin: ".5rem auto",
+              padding: ".75rem 2rem",
+              textAlign: "center",
+            }}
+          >
+            ニュースレターに登録する
+          </a>
+          <p>
+            伊藤ななの活動についてLINEを通して報告させていただきます。フォローお願いいたします。
+          </p>
+        </section>
       </div>
     </>
   )
