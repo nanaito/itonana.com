@@ -191,6 +191,25 @@ const RootPage: NextPage = () => {
           >
             執筆・寄稿実績
           </h2>
+          <br />
+          <p>著書</p>
+          <a href="//www.amazon.co.jp/dp/4885555388" target="_blank">
+            <h3>電気予報士なな子のおでんき予報</h3>
+            <figure
+              style={{
+                maxWidth: "12rem",
+                width: "100%",
+              }}
+            >
+              <img
+                src="//m.media-amazon.com/images/I/61lbMaS3RPL._SY522_.jpg"
+                alt="電気予報士なな子のおでんき予報"
+                style={{ width: "100%" }}
+              />
+            </figure>
+          </a>
+          <br />
+          <p>寄稿</p>
           <ul
             style={{
               padding: "2rem",
