@@ -105,6 +105,26 @@ const RootPage: NextPage = () => {
         }}
       >
         <h2>執筆・寄稿実績</h2>
+        <ul
+          style={{
+            padding: "2rem",
+          }}
+        >
+          <li>
+            電気業界の就職支援サイト『Watt Magazine』　公認ライター
+            <p>
+              <a href="//www.watt-mag.jp/">https://www.watt-mag.jp/</a>{" "}
+            </p>
+          </li>
+          <li>オーム社　月刊誌「新電気」連載</li>
+          <li>雑誌「エネルギーフォーラム」　2024年5月論点再エネ賦課金　寄稿</li>
+          <li>
+            エネ百科　2023年4月寄稿
+            <p>
+              「電気のことをわかりやすく発信！電気予報士なな子さんに聞いてみた」
+            </p>
+          </li>
+        </ul>
       </section>
       <section
         style={{
@@ -112,6 +132,20 @@ const RootPage: NextPage = () => {
         }}
       >
         <h2>登壇実績</h2>
+        <ul
+          style={{
+            padding: "2rem",
+          }}
+        >
+          <li>
+            東京パワーテクノロジー　「TPT環境ビジョン2050」周知セミナーにて講演
+          </li>
+          <li>
+            電気安全関東委員会　「安定供給と脱炭素の達成に必要な人や安全を守る仕組み」講演
+          </li>
+          <li>工務店へのスマートハウスに関するセミナー</li>
+          <li>広島大学にて脱炭素に関するセミナー</li>
+        </ul>
       </section>
     </>
   )
