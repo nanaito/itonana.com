@@ -162,6 +162,8 @@ const RootPage: NextPage = () => {
               "https://www.youtube.com/embed/jT04ZtKJJ9w",
               "https://www.youtube.com/embed/FVaQ2CFNrWU",
               "https://www.youtube.com/embed/tlST_Y7dj-o",
+              "https://www.youtube.com/embed/HB7kDMDhBWI",
+              "https://www.youtube.com/embed/F1jOQcFT_d4",
             ].map((url) => (
               <iframe
                 style={{
