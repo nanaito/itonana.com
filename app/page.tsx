@@ -23,7 +23,7 @@ const RootPage: NextPage = () => {
         <div
           style={{
             borderBottom: "solid .25rem rgb(250, 189, 0)",
-            fontSize: "2.5rem",
+            fontSize: "min(12dvw, 6rem)",
             fontWeight: "bold",
             left: 0,
             padding: ".5rem 1rem",
@@ -38,7 +38,7 @@ const RootPage: NextPage = () => {
             background: "rgba(42, 98, 154, 0.95)",
             borderTop: "solid .25rem rgb(250, 189, 0)",
             bottom: "1rem",
-            padding: "1rem 2rem",
+            padding: "1rem 1.5rem",
             position: "absolute",
             right: 0,
           }}
