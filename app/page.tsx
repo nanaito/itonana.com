@@ -23,7 +23,6 @@ const RootPage: NextPage = () => {
         <div
           style={{
             borderBottom: "solid .25rem rgb(250, 189, 0)",
-            fontSize: "min(12dvw, 6rem)",
             fontWeight: "bold",
             left: 0,
             padding: ".5rem 1rem",
@@ -31,7 +30,15 @@ const RootPage: NextPage = () => {
             top: 0,
           }}
         >
-          伊藤なな
+          <p>国民民主党 東京第14区総支部長</p>
+          <h1
+            style={{
+              fontSize: "min(10dvw, 6rem)",
+              lineHeight: 1,
+            }}
+          >
+            伊藤なな
+          </h1>
         </div>
         <section
           style={{
