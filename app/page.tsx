@@ -74,6 +74,19 @@ const RootPage: NextPage = () => {
             padding: "1rem",
           }}
         >
+          <iframe
+            src="https://www.youtube.com/embed/NaHNsXBpr4U"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{
+              display: "flex",
+              height: "24rem",
+              margin: "auto",
+              maxWidth: "50rem",
+            }}
+          ></iframe>
           <a
             href="//forms.gle/SwTXh3Zzv259pCfN9"
             target="_blank"
