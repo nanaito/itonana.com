@@ -71,6 +71,37 @@ const RootPage: NextPage = () => {
       >
         <section
           style={{
+            padding: "1rem",
+          }}
+        >
+          <a
+            href="//forms.gle/SwTXh3Zzv259pCfN9"
+            target="_blank"
+            style={{
+              background: "rgb(250, 189, 0)",
+              borderRadius: ".25rem",
+              boxShadow: ".0rem .0rem .2rem rgba(42, 98, 154, 0.5)",
+              display: "block",
+              fontSize: "1.5rem",
+              margin: ".5rem auto",
+              maxWidth: "40rem",
+              padding: ".75rem 2rem",
+              textAlign: "center",
+            }}
+          >
+            党員サポーター募集中！
+          </a>
+          <p
+            style={{
+              margin: "auto",
+              maxWidth: "46rem",
+            }}
+          >
+            伊藤ななの活動を応援していただく方を世界中のみなさんから募集しております。伊藤ななの理念と政策に賛同する方の支援をお待ちしています。あなたのお力をぜひ、お貸しください。
+          </p>
+        </section>
+        <section
+          style={{
             fontSize: "1rem",
             padding: "1rem 1.5rem",
           }}
@@ -88,7 +119,7 @@ const RootPage: NextPage = () => {
             }}
           >
             <br />
-            <b>伊藤なな</b>
+            <b style={{ fontSize: "1.5rem" }}>伊藤なな</b>
             <br />
             <br />
             1989年埼玉県生まれ。 上智大学経済学部経営学科卒業。
@@ -274,25 +305,6 @@ const RootPage: NextPage = () => {
             padding: "1rem",
           }}
         >
-          <a
-            href="//forms.gle/SwTXh3Zzv259pCfN9"
-            target="_blank"
-            style={{
-              background: "rgb(250, 189, 0)",
-              borderRadius: ".25rem",
-              boxShadow: ".0rem .0rem .1rem rgba(0, 0, 0, 0.3)",
-              display: "block",
-              margin: ".5rem auto",
-              padding: ".75rem 2rem",
-              textAlign: "center",
-            }}
-          >
-            党員サポーター募集
-          </a>
-          <p>
-            伊藤ななの活動を応援していただく党員の募集を行っております。伊藤ななの理念と政策に賛同する方の支援をお待ちしています。あなたのお力をぜひ、お貸しください。
-          </p>
-          <br />
           <a
             href="//lin.ee/xSm1bWw"
             target="_blank"
