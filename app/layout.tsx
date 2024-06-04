@@ -2,10 +2,10 @@ import { M_PLUS_2 } from "next/font/google"
 import "./global.css"
 import Link from "next/link"
 import React from "react"
-import type { Metadata } from "next"
-import { GoogleAnalytics } from "@next/third-parties/google"
 import { FaLine, FaYoutube } from "react-icons/fa"
 import { FaXTwitter } from "react-icons/fa6"
+import type { Metadata } from "next"
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 const font = M_PLUS_2({ subsets: ["latin"] })
 
