@@ -77,10 +77,11 @@ const RootPage: NextPage = () => {
           <iframe
             src="https://www.youtube.com/embed/NaHNsXBpr4U"
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
+            loading="lazy"
             style={{
+              border: "none",
               display: "flex",
               height: "24rem",
               margin: "auto",
@@ -228,6 +229,7 @@ const RootPage: NextPage = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
+                loading="lazy"
               ></iframe>
             ))}
           </div>
