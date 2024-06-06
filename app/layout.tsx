@@ -10,8 +10,8 @@ import { GoogleAnalytics } from "@next/third-parties/google"
 const font = M_PLUS_2({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "伊藤なな 公式サイト",
-  description: "伊藤なな 公式サイト 「電力の安定供給を私が守る」",
+  title: "伊藤なな 公式サイト | 「電力の安定供給を私が守る」",
+  description: "国民民主党 東京第14区総支部長 伊藤ななの公式サイトです。 ",
   applicationName: "伊藤なな公式サイト",
   keywords: ["伊藤なな", "国民民主党"],
   openGraph: {
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     firstName: "なな",
     lastName: "伊藤",
     url: "https://itonana.com",
-    title: "伊藤なな 公式サイト",
-    description: "伊藤なな 公式サイト 「電力の安定供給を私が守る」",
-    siteName: "伊藤なな公式サイト",
+    title: "伊藤なな 公式サイト | 「電力の安定供給を私が守る」",
+    description: "国民民主党 東京第14区総支部長 伊藤ななの公式サイトです。",
+    siteName: "伊藤なな 公式サイト",
     images: [
       {
         url: "https://itonana.com/profile.png",
