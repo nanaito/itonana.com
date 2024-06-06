@@ -183,6 +183,15 @@ const RootPage: NextPage = () => {
             <br />
             現在は一人前の技術者となるべく、定期点検をしながら実務経験を積む。
           </div>
+          <ul
+            style={{
+              padding: ".5rem 2rem",
+            }}
+          >
+            <li>一般社団法人ZEH推進協議会公式アンバサダー</li>
+            <li>株式会社たけでん公式プロモーションキャラクター</li>
+            <li>RAUL株式会社エグゼクティブアドバイザー</li>
+          </ul>
         </section>
         <section
           style={{
