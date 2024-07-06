@@ -23,7 +23,7 @@ const RootPage: NextPage = () => {
           style={{
             display: "block",
             height: "auto",
-            maxHeight: "90vh",
+            maxHeight: "calc(100dvh - 6rem)",
             maxWidth: "64rem",
             objectFit: "fill",
             width: "auto",
@@ -48,11 +48,24 @@ const RootPage: NextPage = () => {
               fontSize: "max(6dvw, 7dvh)",
               fontWeight: "bolder",
               textShadow:
-                "2px 2px 0 #f7f7f7,2px -2px 0 #f7f7f7,-2px 2px 0 #f7f7f7,-2px -2px 0 #f7f7f7;",
+                "2px 2px 0 rgb(250, 189, 0),2px -2px 0 rgb(250, 189, 0),-2px 2px 0 rgb(250, 189, 0),-2px -2px 0 rgb(250, 189, 0);",
             }}
           >
             電力の安定供給を私が守る
           </p>
+        </div>
+        <div
+          style={{
+            background: "#183D81",
+            bottom: "1rem",
+            color: "rgb(250, 189, 0)",
+            fontSize: "max(4rem, 6dvw)",
+            padding: ".5rem 1.5rem",
+            position: "absolute",
+            right: "1rem",
+          }}
+        >
+          伊藤なな
         </div>
       </section>
       <div
