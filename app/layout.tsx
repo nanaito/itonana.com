@@ -1,7 +1,6 @@
 import "./global.css"
 import { GoogleAnalytics } from "@next/third-parties/google"
 import { M_PLUS_2 } from "next/font/google"
-import Link from "next/link"
 import React from "react"
 import { FaLine, FaYoutube } from "react-icons/fa"
 import { FaXTwitter } from "react-icons/fa6"
@@ -45,22 +44,52 @@ export default function RootLayout({
       <body style={{ ...font.style }}>
         <header
           style={{
+            alignItems: "end",
             background: "#f7f7f7",
+            boxShadow: "0 4px 8px 0 rgb(0 0 0 / 20%)",
+            display: "flex",
+            justifyContent: "space-between",
             padding: ".5rem 1rem",
             position: "fixed",
             width: "100%",
             zIndex: "100",
           }}
         >
-          <Link
-            href={"/"}
-            style={{
-              fontSize: "1.5rem",
-              fontWeight: "bold",
-            }}
-          >
-            伊藤なな&nbsp;<small>公式サイト</small>
-          </Link>
+          <div>
+            <p>国民民主党 東京第14区総支部長</p>
+            <p
+              style={{
+                fontSize: "2.5rem",
+                fontWeight: "bold",
+              }}
+            >
+              伊藤なな
+            </p>
+          </div>
+          <aside>
+            <menu
+              style={{
+                display: "flex",
+                gap: ".5rem",
+              }}
+            >
+              {[
+                ["profile", "プロフィール"],
+                ["achievement", "実績"],
+              ].map(([id, label]) => (
+                <a
+                  href={`#${id}`}
+                  key={id}
+                  style={{
+                    display: "flex",
+                    padding: "1rem",
+                  }}
+                >
+                  {label}
+                </a>
+              ))}
+            </menu>
+          </aside>
         </header>
         <main
           style={{

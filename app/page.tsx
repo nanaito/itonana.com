@@ -9,59 +9,25 @@ const RootPage: NextPage = () => {
       <section
         style={{
           alignItems: "end",
-          backgroundImage: "url(profile.jpg)",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
           display: "flex",
-          minHeight: "100dvh",
-          padding: "2rem",
+          marginTop: "6rem",
+          padding: "0",
           position: "relative",
-          zIndex: 101,
         }}
       >
-        <div
+        <figure
           style={{
-            borderBottom: "solid .25rem rgb(250, 189, 0)",
-            fontWeight: "bold",
-            left: 0,
-            padding: ".5rem 1rem",
-            position: "absolute",
-            top: 0,
+            width: "100%",
           }}
         >
-          <p>国民民主党 東京第14区総支部長</p>
-          <h1
+          <img
+            src="/profile.jpg"
+            alt="伊藤なな"
             style={{
-              fontSize: "min(10dvw, 6rem)",
-              lineHeight: 1,
+              width: "100%",
             }}
-          >
-            伊藤なな
-          </h1>
-        </div>
-        <section
-          style={{
-            background: "rgba(42, 98, 154, 0.95)",
-            borderTop: "solid .25rem rgb(250, 189, 0)",
-            bottom: "1rem",
-            padding: "1rem 1.5rem",
-            position: "absolute",
-            right: 0,
-          }}
-        >
-          <h1
-            style={{
-              background: "transparent",
-              color: "#f0f0f0",
-              fontSize: "min(12dvw, 6rem)",
-              fontWeight: "bold",
-              textAlign: "right",
-            }}
-          >
-            電力の安定供給を私が守る
-          </h1>
-        </section>
+          />
+        </figure>
       </section>
       <div
         style={{
@@ -115,6 +81,7 @@ const RootPage: NextPage = () => {
           </p>
         </section>
         <section
+          id="profile"
           style={{
             fontSize: "1rem",
             padding: "1rem 1.5rem",
@@ -244,6 +211,7 @@ const RootPage: NextPage = () => {
           </div>
         </section>
         <section
+          id="achievement"
           style={{
             padding: "1rem",
           }}
