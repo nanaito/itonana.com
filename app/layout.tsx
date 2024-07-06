@@ -79,6 +79,7 @@ export default function RootLayout({
               }}
             >
               {[
+                ["message", "メッセージ"],
                 ["profile", "プロフィール"],
                 ["achievement", "実績"],
               ].map(([id, label]) => (

@@ -68,6 +68,45 @@ const RootPage: NextPage = () => {
           伊藤なな
         </div>
       </section>
+      <section
+        id="message"
+        style={{
+          background: "rgba(250, 189, 0, 0.3)",
+          padding: "2rem 0",
+        }}
+      >
+        <div
+          style={{
+            color: "#183D81",
+            margin: "auto",
+            maxWidth: "64rem",
+            padding: "1rem",
+          }}
+        >
+          <h1
+            style={{
+              paddingBottom: "1rem",
+              textAlign: "center",
+            }}
+          >
+            伊藤ななからのメッセージ
+          </h1>
+          <div style={{ fontSize: "1.2rem" }}>
+            <p style={{ fontWeight: "bold", padding: "1rem" }}>
+              電気代高騰とエネルギー政策について
+            </p>
+            <p>
+              日本の電気代が約1.5倍に高騰し、家庭や企業の負担が増大しています。この状況を改善するためには、エネルギー供給構造の見直しと制度の適正化が必要です。エネルギー自給率の向上や再エネ賦課金の廃止が急務であり、容量市場などの新制度も国民負担を減らす必要があります。
+            </p>
+            <p style={{ fontWeight: "bold", padding: "1rem" }}>
+              なぜ今、エネルギーが重要なのか
+            </p>
+            <p>
+              経済成長には大量の電力が必要であり、人口減少を補うためのAIやデジタル技術の活用が進む中で、2050年には現在の1.3倍の電力が必要になるとされています。エネルギー問題は経済成長と生活コスト削減のために最優先課題です。
+            </p>
+          </div>
+        </div>
+      </section>
       <div
         style={{
           margin: "auto",
