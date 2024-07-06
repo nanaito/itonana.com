@@ -75,51 +75,6 @@ const RootPage: NextPage = () => {
         }}
       >
         <section
-          style={{
-            padding: "1rem",
-          }}
-        >
-          <iframe
-            src="https://www.youtube.com/embed/NaHNsXBpr4U"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-            loading="lazy"
-            style={{
-              border: "none",
-              display: "flex",
-              height: "24rem",
-              margin: "auto",
-              maxWidth: "50rem",
-            }}
-          ></iframe>
-          <a
-            href="//forms.gle/SwTXh3Zzv259pCfN9"
-            target="_blank"
-            style={{
-              background: "rgb(250, 189, 0)",
-              borderRadius: ".25rem",
-              boxShadow: ".0rem .0rem .2rem rgba(42, 98, 154, 0.5)",
-              display: "block",
-              fontSize: "1.5rem",
-              margin: ".5rem auto",
-              maxWidth: "40rem",
-              padding: ".75rem 2rem",
-              textAlign: "center",
-            }}
-          >
-            党員サポーター募集中！
-          </a>
-          <p
-            style={{
-              margin: "auto",
-              maxWidth: "46rem",
-            }}
-          >
-            伊藤ななの活動を応援していただく方を世界中のみなさんから募集しております。伊藤ななの理念と政策に賛同する方の支援をお待ちしています。あなたのお力をぜひ、お貸しください。
-          </p>
-        </section>
-        <section
           id="profile"
           style={{
             fontSize: "1rem",
@@ -329,6 +284,51 @@ const RootPage: NextPage = () => {
             <li>工務店へのスマートハウスに関するセミナー</li>
             <li>広島大学にて脱炭素に関するセミナー</li>
           </ul>
+        </section>
+        <section
+          style={{
+            padding: "1rem",
+          }}
+        >
+          <iframe
+            src="https://www.youtube.com/embed/NaHNsXBpr4U"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            loading="lazy"
+            style={{
+              border: "none",
+              display: "flex",
+              height: "24rem",
+              margin: "auto",
+              maxWidth: "50rem",
+            }}
+          ></iframe>
+          <a
+            href="//forms.gle/SwTXh3Zzv259pCfN9"
+            target="_blank"
+            style={{
+              background: "rgb(250, 189, 0)",
+              borderRadius: ".25rem",
+              boxShadow: ".0rem .0rem .2rem rgba(42, 98, 154, 0.5)",
+              display: "block",
+              fontSize: "1.5rem",
+              margin: ".5rem auto",
+              maxWidth: "40rem",
+              padding: ".75rem 2rem",
+              textAlign: "center",
+            }}
+          >
+            党員サポーター募集中！
+          </a>
+          <p
+            style={{
+              margin: "auto",
+              maxWidth: "46rem",
+            }}
+          >
+            伊藤ななの活動を応援していただく方を世界中のみなさんから募集しております。伊藤ななの理念と政策に賛同する方の支援をお待ちしています。あなたのお力をぜひ、お貸しください。
+          </p>
         </section>
         <section
           style={{
