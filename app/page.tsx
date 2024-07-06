@@ -29,6 +29,31 @@ const RootPage: NextPage = () => {
             width: "auto",
           }}
         />
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            height: "100%",
+            justifyContent: "center",
+            left: 0,
+            padding: "4rem 1rem",
+            position: "absolute",
+            top: 0,
+            width: "100%",
+          }}
+        >
+          <p
+            style={{
+              color: "#183D81",
+              fontSize: "max(6dvw, 7dvh)",
+              fontWeight: "bolder",
+              textShadow:
+                "2px 2px 0 #f7f7f7,2px -2px 0 #f7f7f7,-2px 2px 0 #f7f7f7,-2px -2px 0 #f7f7f7;",
+            }}
+          >
+            電力の安定供給を私が守る
+          </p>
+        </div>
       </section>
       <div
         style={{

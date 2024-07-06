@@ -49,13 +49,18 @@ export default function RootLayout({
             boxShadow: "0 4px 8px 0 rgb(0 0 0 / 20%)",
             display: "flex",
             justifyContent: "space-between",
+            flexWrap: "wrap",
             padding: ".5rem 1rem",
             position: "fixed",
             width: "100%",
             zIndex: "100",
           }}
         >
-          <div>
+          <div
+            style={{
+              minWidth: "24rem",
+            }}
+          >
             <p>国民民主党 東京第14区総支部長</p>
             <p
               style={{
