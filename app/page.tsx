@@ -9,25 +9,26 @@ const RootPage: NextPage = () => {
       <section
         style={{
           alignItems: "end",
+          background: "#8ec2e4",
           display: "flex",
+          justifyContent: "center",
           marginTop: "6rem",
           padding: "0",
           position: "relative",
         }}
       >
-        <figure
+        <img
+          src="/profile.jpg"
+          alt="伊藤なな"
           style={{
-            width: "100%",
+            display: "block",
+            height: "auto",
+            maxHeight: "90vh",
+            maxWidth: "64rem",
+            objectFit: "fill",
+            width: "auto",
           }}
-        >
-          <img
-            src="/profile.jpg"
-            alt="伊藤なな"
-            style={{
-              width: "100%",
-            }}
-          />
-        </figure>
+        />
       </section>
       <div
         style={{
