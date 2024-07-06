@@ -18,7 +18,7 @@ const RootPage: NextPage = () => {
         }}
       >
         <img
-          src="/profile.jpg"
+          src="/images/cover.jpg"
           alt="伊藤なな"
           style={{
             display: "block",
@@ -117,7 +117,7 @@ const RootPage: NextPage = () => {
           id="profile"
           style={{
             fontSize: "1rem",
-            padding: "1rem 1.5rem",
+            padding: "2rem 1.5rem",
           }}
         >
           <h2
@@ -129,69 +129,94 @@ const RootPage: NextPage = () => {
           </h2>
           <div
             style={{
-              padding: ".5rem 0",
+              alignItems: "start",
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "1rem",
+              justifyContent: "center",
+              padding: "1rem 0",
             }}
           >
-            <br />
-            <b style={{ fontSize: "1.5rem" }}>伊藤なな</b>
-            <br />
-            <br />
-            1989年埼玉県生まれ。 上智大学経済学部経営学科卒業。
-            <br />
-            在学中にバックパッカーとして世界各地を旅する。
+            <div
+              style={{
+                maxWidth: "20rem",
+              }}
+            >
+              <img
+                src="/images/profile.jpg"
+                alt="伊藤なな"
+                style={{
+                  width: "100%",
+                }}
+              />
+            </div>
+            <div
+              style={{
+                maxWidth: "40rem",
+              }}
+            >
+              <div style={{}}>
+                <b style={{ fontSize: "1.5rem" }}>伊藤なな</b>
+                <br />
+                <br />
+                1989年埼玉県生まれ。 上智大学経済学部経営学科卒業。
+                <br />
+                在学中にバックパッカーとして世界各地を旅する。
+              </div>
+              <div
+                style={{
+                  padding: ".5rem 0",
+                }}
+              >
+                再生可能エネルギー関連会社に入社し、
+                電力全面自由化に伴い小売り電気事業者の立ち上げに関わる。
+              </div>
+              <div
+                style={{
+                  padding: ".5rem 0",
+                }}
+              >
+                2019年より独立開業。
+                <br />
+                電力事業の立ち上げから、運営や広報の支援業務を行う。
+                <br />
+                加えて、地域のカーボンニュートラル推進のため、ZEH住宅、マイクログリッドのプロジェクトに参画。
+              </div>
+              <div
+                style={{
+                  padding: ".5rem 0",
+                }}
+              >
+                2020年より 電力業界の広報・啓発活動のため、Youtubeを開始。
+                <br />
+                業界をわかりやすく！楽しく解説した「電気予報士なな子のおでんき予報」チャンネルは1万3千人の視聴者。
+                <br />
+                これまで、電力会社などの企業での講演、学校での出前授業、展示会・イベントでの登壇を行う。
+              </div>
+              <div
+                style={{
+                  padding: ".5rem 0",
+                }}
+              >
+                2024年に 『電気予報士なな子のおでんき予報』を出版。
+                <br />
+                「電気料金」「電力システム」「カーボンニュートラル」を解説した同書はAmazon１位を獲得、
+                <br />
+                第二種電気工事士、電験三種（電気主任技術者）を保有。
+                <br />
+                現在は一人前の技術者となるべく、定期点検をしながら実務経験を積む。
+              </div>
+              <ul
+                style={{
+                  padding: ".5rem 2rem",
+                }}
+              >
+                <li>一般社団法人ZEH推進協議会公式アンバサダー</li>
+                <li>株式会社たけでん公式プロモーションキャラクター</li>
+                <li>RAUL株式会社エグゼクティブアドバイザー</li>
+              </ul>
+            </div>
           </div>
-          <div
-            style={{
-              padding: ".5rem 0",
-            }}
-          >
-            再生可能エネルギー関連会社に入社し、
-            電力全面自由化に伴い小売り電気事業者の立ち上げに関わる。
-          </div>
-          <div
-            style={{
-              padding: ".5rem 0",
-            }}
-          >
-            2019年より独立開業。
-            <br />
-            電力事業の立ち上げから、運営や広報の支援業務を行う。
-            <br />
-            加えて、地域のカーボンニュートラル推進のため、ZEH住宅、マイクログリッドのプロジェクトに参画。
-          </div>
-          <div
-            style={{
-              padding: ".5rem 0",
-            }}
-          >
-            2020年より 電力業界の広報・啓発活動のため、Youtubeを開始。
-            <br />
-            業界をわかりやすく！楽しく解説した「電気予報士なな子のおでんき予報」チャンネルは1万3千人の視聴者。
-            <br />
-            これまで、電力会社などの企業での講演、学校での出前授業、展示会・イベントでの登壇を行う。
-          </div>
-          <div
-            style={{
-              padding: ".5rem 0",
-            }}
-          >
-            2024年に 『電気予報士なな子のおでんき予報』を出版。
-            <br />
-            「電気料金」「電力システム」「カーボンニュートラル」を解説した同書はAmazon１位を獲得、
-            <br />
-            第二種電気工事士、電験三種（電気主任技術者）を保有。
-            <br />
-            現在は一人前の技術者となるべく、定期点検をしながら実務経験を積む。
-          </div>
-          <ul
-            style={{
-              padding: ".5rem 2rem",
-            }}
-          >
-            <li>一般社団法人ZEH推進協議会公式アンバサダー</li>
-            <li>株式会社たけでん公式プロモーションキャラクター</li>
-            <li>RAUL株式会社エグゼクティブアドバイザー</li>
-          </ul>
         </section>
         <section
           style={{
