@@ -3,6 +3,19 @@
 import Script from "next/script"
 import React from "react"
 import type { NextPage } from "next"
+import type { ComponentProps, FC } from "react"
+
+const SectionTitle: FC<ComponentProps<"h2">> = ({ style, ...props }) => {
+  return (
+    <h2
+      style={{
+        borderBottom: "solid .1rem rgb(250, 189, 0)",
+        ...style,
+      }}
+      {...props}
+    />
+  )
+}
 
 const RootPage: NextPage = () => {
   return (
@@ -121,13 +134,7 @@ const RootPage: NextPage = () => {
             padding: "2rem 1.5rem",
           }}
         >
-          <h2
-            style={{
-              borderBottom: "solid .1rem rgb(250, 189, 0)",
-            }}
-          >
-            プロフィール
-          </h2>
+          <SectionTitle>プロフィール</SectionTitle>
           <div
             style={{
               alignItems: "start",
@@ -224,13 +231,7 @@ const RootPage: NextPage = () => {
             padding: "1rem",
           }}
         >
-          <h2
-            style={{
-              borderBottom: "solid .1rem rgb(250, 189, 0)",
-            }}
-          >
-            Youtubeチャンネル
-          </h2>
+          <SectionTitle>Youtubeチャンネル</SectionTitle>
           <br />
           <p>
             <a href="//www.youtube.com/@denkiyohoshi" target="_blank">
@@ -275,13 +276,7 @@ const RootPage: NextPage = () => {
             padding: "1rem",
           }}
         >
-          <h2
-            style={{
-              borderBottom: "solid .1rem rgb(250, 189, 0)",
-            }}
-          >
-            執筆・寄稿実績
-          </h2>
+          <SectionTitle>執筆・寄稿実績</SectionTitle>
           <br />
           <p>著書</p>
           <a href="//www.amazon.co.jp/dp/4885555388" target="_blank">
@@ -327,13 +322,7 @@ const RootPage: NextPage = () => {
             padding: "1rem",
           }}
         >
-          <h2
-            style={{
-              borderBottom: "solid .1rem rgb(250, 189, 0)",
-            }}
-          >
-            登壇実績
-          </h2>
+          <SectionTitle>登壇実績</SectionTitle>
           <ul
             style={{
               padding: "2rem",
