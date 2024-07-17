@@ -533,7 +533,7 @@ const RootPage: NextPage = () => {
             background: "f9f9f9",
             border: ".25rem solid rgb(250, 189, 0)",
             borderRadius: ".5rem",
-            padding: "2rem",
+            padding: "2rem 1.5rem",
           }}
         >
           <h3
@@ -568,8 +568,9 @@ const RootPage: NextPage = () => {
               display: "block",
               fontSize: "1.5rem",
               margin: ".5rem auto",
-              padding: ".75rem 2rem",
+              padding: ".75rem",
               textAlign: "center",
+              width: "100%",
             }}
           >
             ニュースレターに登録する
