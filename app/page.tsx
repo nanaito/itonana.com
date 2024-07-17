@@ -1,5 +1,6 @@
 "use client"
 
+import Script from "next/script"
 import React from "react"
 import type { NextPage } from "next"
 
@@ -394,11 +395,64 @@ const RootPage: NextPage = () => {
             伊藤ななの活動を応援していただく方を世界中のみなさんから募集しております。伊藤ななの理念と政策に賛同する方の支援をお待ちしています。あなたのお力をぜひ、お貸しください。
           </p>
         </section>
-        <section
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "1rem",
+          justifyContent: "space-around",
+          padding: "1rem",
+          width: "100%",
+        }}
+      >
+        <div
           style={{
-            padding: "1rem",
+            height: "42rem",
+            maxWidth: "42rem",
+            overflow: "scroll",
+            width: "100%",
           }}
         >
+          <a
+            className="twitter-timeline"
+            data-theme="light"
+            href="https://twitter.com/Denkiyohoushi?ref_src=twsrc%5Etfw"
+          >
+            Denkiyohoushi
+          </a>
+          <Script src="https://platform.twitter.com/widgets.js" />
+        </div>
+        <section
+          style={{
+            background: "f9f9f9",
+            border: ".25rem solid rgb(250, 189, 0)",
+            borderRadius: ".5rem",
+            padding: "2rem",
+          }}
+        >
+          <h3
+            style={{
+              borderBottom: ".25rem solid rgb(250, 189, 0)",
+              fontSize: "1.5rem",
+            }}
+          >
+            伊藤ななニュースレター
+          </h3>
+          <p style={{ fontSize: "1.2rem", padding: "1rem 0" }}>
+            伊藤ななの活動についてLINEを通して報告させていただきます。
+            <br />
+            フォローお願いいたします。
+          </p>
+          <figure
+            style={{
+              margin: "auto",
+              maxWidth: "16rem",
+              padding: "1rem",
+            }}
+          >
+            <img src="/images/line_qr.png" alt="サポーターLINE" width="100%" />
+          </figure>
           <a
             href="//lin.ee/xSm1bWw"
             target="_blank"
@@ -407,6 +461,7 @@ const RootPage: NextPage = () => {
               borderRadius: ".25rem",
               boxShadow: ".0rem .0rem .1rem rgba(0, 0, 0, 0.3)",
               display: "block",
+              fontSize: "1.5rem",
               margin: ".5rem auto",
               padding: ".75rem 2rem",
               textAlign: "center",
@@ -414,9 +469,6 @@ const RootPage: NextPage = () => {
           >
             ニュースレターに登録する
           </a>
-          <p>
-            伊藤ななの活動についてLINEを通して報告させていただきます。フォローお願いいたします。
-          </p>
         </section>
       </div>
     </>
