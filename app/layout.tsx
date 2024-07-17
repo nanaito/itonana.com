@@ -98,11 +98,7 @@ export default function RootLayout({
             </menu>
           </aside>
         </header>
-        <main
-          style={{
-            minHeight: "calc(100dvh - 3rem)",
-          }}
-        >
+        <main style={{}}>
           <>{children}</>
         </main>
         <footer style={{ padding: "2rem" }}>
