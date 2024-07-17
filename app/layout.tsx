@@ -75,7 +75,7 @@ export default function RootLayout({
             <menu
               style={{
                 display: "flex",
-                gap: ".5rem",
+                gap: ".25rem",
               }}
             >
               {[
@@ -89,7 +89,7 @@ export default function RootLayout({
                   key={id}
                   style={{
                     display: "flex",
-                    padding: "1rem",
+                    padding: ".5rem",
                   }}
                 >
                   {label}
