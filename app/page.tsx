@@ -2,6 +2,8 @@
 
 import Script from "next/script"
 import React from "react"
+import { PolicyItem } from "../components/modules/policy-item"
+import { Policy2, Policy3, PrimaryPolicy } from "../constant/policy"
 import type { NextPage } from "next"
 import type { ComponentProps, FC } from "react"
 
@@ -278,67 +280,37 @@ const RootPage: NextPage = () => {
               padding: "2rem .5rem",
             }}
           >
-            {[
-              {
-                title: "エネルギー自給率のアップ",
-                content:
-                  "日本のエネルギー自給率は13.3％。海外依存が高いことで、海外情勢によってエネルギー価格が高騰する上に、輸入できなくなると停電が起こる恐れがあります。国防の観点からも、早急に海外への依存度を減らす為、現段階においては原子力の再稼働、再エネの有効活用。将来においてはより安全性の高い、脱炭素電源の開発を行う必要があります。",
-              },
-              {
-                title: "脱炭素への移行と安定供給の両立",
-                content:
-                  "日本を含む世界の多くの国々で2050年カーボンニュートラル達成を目指しています。日本は化石燃料依存度が高く、化石燃料を燃やすことで温室効果ガスは出ますので、エネルギー構造を変えていかなくてはなりません。しかし、今の日本の電力を支えている火力発電を急激になくすのではなく、安定供給や経済性も保っていきながら脱炭素へ移行していくことが大事です。その為に、火力、原子力、再エネのベストエネルギーミックスを実現します。化石燃料に変わる水素、アンモニアの開発、今より安全な原子力を活用した新型革新炉、気候に変動される再エネの最大限活用のために電力使用を効率化するデマンドレスポンスの推進を行います",
-              },
-              {
-                title: "先進技術を日本から、国産を守る",
-                content:
-                  "世界的な脱炭素の流れから、化石燃料に変わる水素やアンモニアの活用。今の原子力発電よりも安全な新型革新炉や核融合技術の実用化。また2030年代には太陽光パネルの廃棄量が大幅に増えることに伴うリサイクル技術の確立など。日本ではまだ実用していない技術があります。太陽光パネルの普及では、技術では先行していたものの、普及やビジネスの観点で海外製に負けてしまいました。過去の失敗から学び、世界に先立ち実用化することでメイドインジャパンを確立します。",
-              },
-              {
-                title: "技術人材、エッセンシャルワーカーの育成",
-                content:
-                  "日本の少子高齢化に伴う人口減は避けられません。新技術を育てる技術人材、現場職に従事する方の人材不足は深刻です。労働人口が減る中でも経済活動を発展させていくためには、一人当たりの生産性を上げる必要があります。新技術の開発に携わる技術職の方、インフラや生活を守るエッセンシャルワーカーの方の育成や、大人のリスキリングを支援をします。",
-              },
-              {
-                title: "省エネ推進",
-                content:
-                  "省エネとは、不快を受け入れて我慢するものではありません。住宅や建物の断熱性を上げ、高効率の機器導入を促します。使用する電力を減らし、エネルギーマネジメントシステムによって、経済的かつ快適に過ごせる体制を作ります。",
-              },
-              {
-                title: "エネルギーから防災を",
-                content:
-                  "災害が多い日本。それを受け入れ、適切な対策を行っていくことが必要です。全国の避難所や学校、病院には、太陽光と蓄電池を設置し、通常時の脱炭素電源の供給と、災害時には停電しない体制を作ります。電力データを活用し、災害時の復旧の最適化を図ります。日本全国で災害復旧を迅速に行える体制を作ります。",
-              },
-              {
-                title: "サイバーセキュリティ向上",
-                content:
-                  "インフラの遠隔監視などIT技術で便利になった一方、ネットワークを通じて外部から制御されてしまうサイバーテロのリスクも増えました。国を守るための、エネルギーインフラに関するセキュリティレベルを向上させます。",
-              },
-            ].map(({ title, content }, i) => (
-              <div
-                style={{
-                  background: "rgba(250, 189, 0, 0.3)",
-                  border: "solid 2px rgb(250, 189, 0)",
-                  borderRadius: ".5rem",
-                  padding: "1rem",
-                  position: "relative",
-                }}
-              >
-                <div
-                  style={{
-                    background: "rgb(250, 189, 0)",
-                    borderRadius: "2rem",
-                    left: "-1rem",
-                    padding: ".5rem 1rem",
-                    position: "absolute",
-                    top: "-1rem",
-                  }}
-                >
-                  {i + 1}
-                </div>
-                <h3 style={{ marginBottom: ".5rem" }}>{title}</h3>
-                <p>{content}</p>
-              </div>
+            {PrimaryPolicy.map((item, index) => (
+              <PolicyItem key={index} index={index} {...item} />
+            ))}
+          </div>
+          <SectionTitle>給与が上がる経済</SectionTitle>
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "2rem",
+              padding: "2rem .5rem",
+            }}
+          >
+            <p>
+              物価高に賃上げが追い付いていません。給与が上がり、消費が活発化する為に、家計を助ける政策を掲げています。
+            </p>
+            {Policy2.map((item, index) => (
+              <PolicyItem key={index} index={index} {...item} />
+            ))}
+          </div>
+          <SectionTitle>人づくりこそ国づくり</SectionTitle>
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "2rem",
+              padding: "2rem .5rem",
+            }}
+          >
+            {Policy3.map((item, index) => (
+              <PolicyItem key={index} index={index} {...item} />
             ))}
           </div>
         </section>
