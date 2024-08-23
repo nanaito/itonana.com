@@ -269,7 +269,7 @@ const RootPage: NextPage = () => {
           }}
           id="policy"
         >
-          <SectionTitle>伊藤ななの７個のコミット</SectionTitle>
+          <SectionTitle>エネルギ―の安定供給を守る</SectionTitle>
           <div
             style={{
               display: "flex",
